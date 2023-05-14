@@ -1,0 +1,199 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: #0080ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-weight: bold;
+}
+
+/* Featured post styles */
+
+.featured {
+  margin: 50px 0;
+}
+
+.featured img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.featured h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.featured p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Blog styles */
+
+.blog {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-gap: 30px;
+}
+
+.post {
+  margin-bottom: 50px;
+}
+
+.post img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: #0080ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.read-more:hover {
+  background-color: #0059b3;
+}
+
+.sidebar {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.categories {
+  margin-bottom: 20px;
+}
+
+.categories ul {
+  list-style: none;
+}
+
+.categories li {
+  margin-bottom: 10px;
+}
+
+.categories li a {
+  color: #0080ff;
+  font-weight: bold;
+}
+
+/* Single post styles */
+
+.single-post {
+  margin-top: 50px;
+}
+
+.single-post img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.single-post h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.single-post .meta {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.social-sharing {
+  margin-bottom: 20px;
+}
+
+.social-sharing ul {
+  list-style: none;
+  display: flex;
+}
+
+.social-sharing li {
+  margin-right: 10px;
+}
+
+.social
